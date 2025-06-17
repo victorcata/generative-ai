@@ -1,0 +1,19 @@
+{
+  "name": "generative-ai",
+  "version": "1.0.0",
+  "description": "Training on Generative AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorcata/generative-ai.git"
+  },
+  "author": "Victor Catalina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorcata/generative-ai/issues"
+  },
+  "homepage": "https://github.com/victorcata/generative-ai#readme"
+}
