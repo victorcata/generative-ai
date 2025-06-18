@@ -4,7 +4,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const endpoint = process.env.AZURE_FOUNDRY_ENDPOINT || "";
-const azureApiKey = process.env.AZURE_OPENAI_API_KEY || "";
+const azureApiKey = process.env.AZURE_FOUNDRY_API_KEY || "";
 const deployment = process.env.AZURE_OPENAI_DEPLOYMENT || "";
 
 export async function main() {
