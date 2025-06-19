@@ -5,7 +5,7 @@ dotenv.config();
 
 const endpoint = process.env.AZURE_FOUNDRY_ENDPOINT || "";
 const azureApiKey = process.env.AZURE_FOUNDRY_API_KEY || "";
-const deployment = process.env.AZURE_OPENAI_DEPLOYMENT || "";
+const deployment = process.env.AZURE_FOUNDRY_GPT_DEPLOYMENT || "";
 
 export async function main() {
   try {

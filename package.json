@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/victorcata/generative-ai/issues"
   },
-  "homepage": "https://github.com/victorcata/generative-ai#readme"
+  "homepage": "https://github.com/victorcata/generative-ai#readme",
+  "dependencies": {
+    "requests": "^0.3.0"
+  }
 }

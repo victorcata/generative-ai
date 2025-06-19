@@ -8,11 +8,12 @@ load_dotenv()
 
 client = AzureOpenAI(
     api_key=os.environ['AZURE_FOUNDRY_API_KEY'],
-    api_version="2023-05-15"
+    azure_endpoint=os.environ['AZURE_FOUNDRY_ENDPOINT'],
+    api_version=os.environ['AZURE_FOUNDRY_API_VERSION']
 )
 
 # Select the General Purpose curie model for text
-model = os.environ['AZURE_OPENAI_DEPLOYMENT']
+model = os.environ['AZURE_FOUNDRY_GPT_DEPLOYMENT']
 
 # Create your first prompt
 text_prompt = "Should oxford commas always be used?"
